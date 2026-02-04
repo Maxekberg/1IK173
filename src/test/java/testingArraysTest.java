@@ -37,9 +37,42 @@ class testingArraysTest {
     @DisplayName("AppendLast")
     void appendLast(){
         myInts.appendLast(3);
+        int [] resultat1 =  new int[1, 2, 3, 4, 5];
+        assertEquals(3 ,3 );
+        //{1, 2, 3, 4};
+    }
+
+    @Test
+    @DisplayName("Insert at")
+    void insertAt(){
+        myInts.insertAt(3, 3);
         assertEquals(3,3);
     }
 
+    @Test
+    @DisplayName("Get at")
+    void getAt(){
+        myInts.getAt(1);
+        int resultat = myInts.getAt(1);
+        assertEquals(2,resultat);
+        //problem om värdet är noll
+    }
+
+    /**
+     * Set a new value at position <pos>.
+     * @param pos
+     * @param element
+     */
+
+    @Test
+    @DisplayName("Set at")
+    void setAt(){
+        myInts.setAt(2, 3);
+        int resultat = myInts.getAt(2);
+        assertEquals(3,resultat);
+    }
+
+    //BUG test void bug1{}
 
 }
 

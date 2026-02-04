@@ -39,26 +39,38 @@ public class testingArrays implements IIntArray{
 
     @Override
     public void appendLast(int value) {
-        array[array.length - 1] = value;
-        /*
-        int lastIndex = array.length - 1;
-        array[lastIndex] = value;
-         */
+         int[] newArray  = new int[array.length + 1];
+         for (int i = 0; i < array.length; i++) {
+             newArray[i] = array[i];
+         }
+         newArray[newArray.length-1] = value;
+         array = newArray;
     }
 
     @Override
     public void insertAt(int pos, int value) {
-
+        for (int i = array.length - 1; i > pos; i--) {
+            array[i] = array[i - 1];
+        }
     }
 
     @Override
     public int getAt(int pos) {
-        return 0;
+        for(int i = 0; i < array.length; i++) {
+            if (array[i] == pos) {
+                return array[pos];
+            }
+        }
+        return -1;
     }
 
     @Override
     public void setAt(int pos, int element) {
-
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == pos) {
+                array[i] = element;
+            }
+        }
     }
 
     @Override
