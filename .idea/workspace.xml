@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58ff5fe2-2051-4365-996a-62d0746de5ea" name="Changes" comment="test">
+    <list default="true" id="58ff5fe2-2051-4365-996a-62d0746de5ea" name="Changes" comment="efter lektion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IIntArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testingArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testingArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testingArraysTest.java" afterDir="false" />
     </list>
@@ -52,8 +52,31 @@
     "Application.main.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
     "JUnit.integersTest.executor": "Run",
+    "JUnit.testingArraysTest$testAppendLast.executor": "Run",
+    "JUnit.testingArraysTest$testAppendLast.shouldWorkWithEmptyArray.executor": "Run",
+    "JUnit.testingArraysTest$testFindingPositions.allNumbersAreOk.executor": "Run",
+    "JUnit.testingArraysTest$testFindingPositions.executor": "Run",
+    "JUnit.testingArraysTest$testGetAt.executor": "Run",
+    "JUnit.testingArraysTest$testGetAt.getAt.executor": "Run",
+    "JUnit.testingArraysTest$testGetAt.throwExceptionIfPositionIsNegative.executor": "Run",
+    "JUnit.testingArraysTest$testGetAt.throwExceptionIfPositionIsOutOfBounds.executor": "Run",
+    "JUnit.testingArraysTest$testInsertAt.executor": "Run",
+    "JUnit.testingArraysTest$testInsertAt.throwExceptionIfPosIsNegativeNumbers.executor": "Run",
+    "JUnit.testingArraysTest$testSetAt.executor": "Run",
+    "JUnit.testingArraysTest$testSetAt.setAt.executor": "Run",
+    "JUnit.testingArraysTest.appendLast.executor": "Run",
     "JUnit.testingArraysTest.executor": "Run",
+    "JUnit.testingArraysTest.findPositions.executor": "Run",
     "JUnit.testingArraysTest.getAt.executor": "Run",
+    "JUnit.testingArraysTest.getAverage.executor": "Run",
+    "JUnit.testingArraysTest.getAverageShouldThrowExceptionForNegativeNumbers.executor": "Run",
+    "JUnit.testingArraysTest.insertAt.executor": "Run",
+    "JUnit.testingArraysTest.noPositionFound.executor": "Run",
+    "JUnit.testingArraysTest.throwExceptionForNullArray.executor": "Run",
+    "JUnit.testingArraysTest.throwExceptionForTom.executor": "Run",
+    "JUnit.testingArraysTest.throwExceptionIfPosIsNegativeNumbers.executor": "Run",
+    "JUnit.testingArraysTest.throwExceptionIfPositionDosentExis.executor": "Run",
+    "JUnit.testingArraysTest.throwExceptionIfPositionDosentExit.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -85,19 +108,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testingArraysTest.getAt">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+  <component name="RunManager" selected="JUnit.testingArraysTest$testFindingPositions">
+    <configuration name="testingArraysTest$testFindingPositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="1Ik173.2" />
+      <option name="PACKAGE_NAME" value="testingArraysTest" />
+      <option name="MAIN_CLASS_NAME" value="testingArraysTest$testFindingPositions" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testingArraysTest.getAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testingArraysTest$testGetAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="1Ik173.2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testingArraysTest" />
+      <option name="PACKAGE_NAME" value="testingArraysTest" />
+      <option name="MAIN_CLASS_NAME" value="testingArraysTest$testGetAt" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testingArraysTest$testGetAt.getAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1Ik173.2" />
+      <option name="PACKAGE_NAME" value="testingArraysTest" />
+      <option name="MAIN_CLASS_NAME" value="testingArraysTest$testGetAt" />
       <option name="METHOD_NAME" value="getAt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testingArraysTest$testSetAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1Ik173.2" />
+      <option name="PACKAGE_NAME" value="testingArraysTest" />
+      <option name="MAIN_CLASS_NAME" value="testingArraysTest$testSetAt" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testingArraysTest$testSetAt.setAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1Ik173.2" />
+      <option name="PACKAGE_NAME" value="testingArraysTest" />
+      <option name="MAIN_CLASS_NAME" value="testingArraysTest$testSetAt" />
+      <option name="METHOD_NAME" value="setAt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,8 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testingArraysTest.getAt" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.testingArraysTest$testFindingPositions" />
+        <item itemvalue="JUnit.testingArraysTest$testSetAt" />
+        <item itemvalue="JUnit.testingArraysTest$testSetAt.setAt" />
+        <item itemvalue="JUnit.testingArraysTest$testGetAt" />
+        <item itemvalue="JUnit.testingArraysTest$testGetAt.getAt" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769173842254</updated>
-      <workItem from="1769173843571" duration="42724000" />
+      <workItem from="1769173843571" duration="68652000" />
     </task>
     <task id="LOCAL−00001" summary="test">
       <option name="closed" value="true" />
@@ -142,7 +198,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1769588183446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="efter lektion">
+      <option name="closed" value="true" />
+      <created>1770212804816</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1770212804816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="efter lektion" />
+    <option name="LAST_COMMIT_MESSAGE" value="efter lektion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

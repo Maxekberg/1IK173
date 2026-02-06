@@ -1,9 +1,9 @@
 /*
- * Interface for handling an array of integers.
+ * Interface for handling an Zarray of integers.
  */
 public interface IIntArray {
         /**
-         * Get the average value of the entire array.
+         * Get the average value of the entire Zarray.
          * @return Average.
          */
         double getAverage();
